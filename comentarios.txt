@@ -1,0 +1,71 @@
+install	i	Instala um novo módulo
+list	ls	Lista os módulos instalados
+test	t	Executa o script de teste especificado no package.json
+--global	-g	Usado como um sinalizador para instalar um pacote globalmente (não só na pasta do projeto
+--save	-S	Salva o módulo ao instalar
+--save-exact	-E	Salva o módulo ao instalar, porém na versão exata mencionada
+--save-dev	-D	Salva o módulo ao instalar, porém como uma dependência de desenvolvimento
+
+
+npm home	Abre a página do projeto
+npm repo	Abre o repositório de código do projeto
+npm audit	Executa uma auditoria no projeto para identificar se existe alguma dependência com vulnerabilidade conhecida
+npm update	Atualiza projetos para a última versão respeitando o package.json
+npm outdated	Retorna a lista de dependências desatualizadas mostrando a versão mais recente
+npm adduser	Adiciona um novo usuario no https://registry.npmjs.org para permitir a publicação de pacotes
+npm publish	Faz a publicação do pacote no NPM
+
+expresse não opnativo - Da a liberdade ao desenvolvedor.
+
+erro que ocorreu ABAIXO  ---------- linha 27 resolve o erro.
+
+[nodemon] 2.0.15
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node server.js`
+(node:10640) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+C:\Users\Humberto\Desktop\nodeAlura\APIRestExpressMongoDB\server.js:2
+import app from './src/app.js'
+^^^^^^
+
+npm install express-generator -g
+express olamundo
+
+change directory:
+    > cd olamundo
+install dependencies:
+    > npm install
+    
+isso ACIMA irá criar um esqueleto express
+
+
+
+erro ---------------- Cannot PATCH  /livros/1
+---------- Implementar o método app.patch de forma similar ao que foi feito com o app.put;
+---------- Trocar na requisição o verbo para PUT.
+
+
+SQL (Structured Query Language)
+https://www.alura.com.br/artigos/sql-comandos-basicos
+https://www.alura.com.br/artigos/o-que-e-sql
+
+mongoDB - NoSQL - orientado a documentos ---------- BSON (Binary JSON) 
+
+mongoDB atlas - serviço em nuvem do mongoDB
+gratuito/online/512 megas de dados
+
+
+ MVC é um acrônimo para Model-View-Controller e é um dos padrões arquiteturais mais utilizados no desenvolvimento de aplicações web
+
+ GET	Obter os dados de um recurso.
+POST	Criar um novo recurso.
+PUT	Substituir os dados de um determinado recurso.
+PATCH	Atualizar parcialmente um determinado recurso.
+DELETE	Excluir um determinado recurso.
+HEAD	Similar ao GET, mas utilizado apenas para se obter os cabeçalhos de resposta, sem os dados em si.
+OPTIONS	Obter quais manipulações podem ser realizadas em um determinado recurso.
+
+
+A utilizar alguns métodos fornecidos pela biblioteca mongoose para a manipulação dos dados no banco, como find, findById, findByIdAndUpdate e findByIdAndDelete.
